@@ -9,7 +9,7 @@ import { initGiftSystem, refreshRecentGiftCard, showGiftDrawer } from './giftMan
 import { initWalletUI, sendTonPremiumPayment } from './tonPayment.js';
 import { initOverlayMonitor } from './overlayMonitor.js';
 
-const API_URL = "https://vidvids.onrender.com";
+const API_URL = "https://vidvids-1mnp.onrender.com";
 
 // ---------- CATEGORIES ----------
 export const categories = [
