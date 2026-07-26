@@ -145,8 +145,8 @@ async def on_successful_payment(message: Message):
         )
 
         keyboard = InlineKeyboardMarkup(inline_keyboard=[
-            [InlineKeyboardButton(text="🔄 Refresh Mini App", web_app={"url": "https://ojareridominion-prog.github.io/VidVids/"})],
-            [InlineKeyboardButton(text="🚀 Open VidVids", web_app={"url": "https://ojareridominion-prog.github.io/VidVids/"})]
+            [InlineKeyboardButton(text="🔄 Refresh Mini App", web_app={"url": "https://247cryptotest-max.github.io/VidVids/"})],
+            [InlineKeyboardButton(text="🚀 Open VidVids", web_app={"url": "https://247cryptotest-max.github.io/VidVids/"})]
         ])
         await message.answer(
             "Click below to open the refreshed app with premium activated:",
@@ -180,7 +180,7 @@ async def cmd_start(message: Message):
     await send_banner_ad(message.chat.id, telegram_id)
 
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(text="🚀 Let's Go!", web_app={"url": "https://ojareridominion-prog.github.io/VidVids/"})],
+        [InlineKeyboardButton(text="🚀 Let's Go!", web_app={"url": "https://247cryptotest-max.github.io/VidVids/"})],
         [InlineKeyboardButton(text="📢 Official Channel", url="https://t.me/VidVids_channel")]
     ])
     await message.answer(
