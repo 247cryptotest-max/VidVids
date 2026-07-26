@@ -3,7 +3,7 @@ import { state } from './state.js';
 import { getSeenList, showLoadingSpinner, hideLoadingSpinner } from './utils.js';
 import { buildSlides, showMonetagInterstitial } from './adsManager.js';
 
-const API_URL = "https://vidvids.onrender.com";
+const API_URL = "https://vidvids-1mnp.onrender.com";
 const PAGE_SIZE = 12; // Adjusted to 12 as requested
 const MAX_RETRIES = 3;
 const AD_FREQUENCY = 3;
