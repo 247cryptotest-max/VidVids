@@ -62,9 +62,9 @@ else:
 async def ton_manifest(request: Request):
     base_url = str(request.base_url).rstrip('/')
     return {
-        "url": "https://ojareridominion-prog.github.io/VidVids",
+        "url": "https://247cryptotest-max.github.io/VidVids/",
         "name": "VidVids",
-        "iconUrl": "https://ojareridominion-prog.github.io/VidVids/assets/icon.png"
+        "iconUrl": "https://247cryptotest-max.github.io/VidVids/assets/icon.png"
     }
 # Optional debug endpoint
 @app.get("/debug/ton-manifest")
