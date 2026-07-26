@@ -4,7 +4,7 @@ import { resetAndLoadFeed } from './feedManager.js';
 import { showRewardedAd } from './monetag.js';
 import { generateInitialsAvatar } from './utils.js';
 
-const API_URL = "https://vidvids.onrender.com";
+const API_URL = "https://vidvids-1mnp.onrender.com";
 const TEMP_PREMIUM_KEY = "vidvids_temp_premium_expiry";
 const TEMP_AD_COUNT_KEY = "vidvids_temp_ad_count";
 
